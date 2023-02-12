@@ -6,7 +6,9 @@
     {"id":{"name":"objPlayerBot","path":"objects/objPlayerBot/objPlayerBot.yy",},"order":4,},
     {"id":{"name":"objPlayerLeft","path":"objects/objPlayerLeft/objPlayerLeft.yy",},"order":5,},
     {"id":{"name":"sprTitleScreenBkg","path":"sprites/sprTitleScreenBkg/sprTitleScreenBkg.yy",},"order":4,},
+    {"id":{"name":"objTitleScreenManager","path":"objects/objTitleScreenManager/objTitleScreenManager.yy",},"order":8,},
     {"id":{"name":"Rm_TitleScreen","path":"rooms/Rm_TitleScreen/Rm_TitleScreen.yy",},"order":1,},
+    {"id":{"name":"gameManager","path":"objects/gameManager/gameManager.yy",},"order":7,},
     {"id":{"name":"sprBackground","path":"sprites/sprBackground/sprBackground.yy",},"order":0,},
     {"id":{"name":"objWall","path":"objects/objWall/objWall.yy",},"order":1,},
     {"id":{"name":"sprTitle","path":"sprites/sprTitle/sprTitle.yy",},"order":5,},
@@ -21,6 +23,12 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
+    {"name":"Android","path":"options/android/options_android.yy",},
+    {"name":"HTML5","path":"options/html5/options_html5.yy",},
+    {"name":"iOS","path":"options/ios/options_ios.yy",},
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
+    {"name":"tvOS","path":"options/tvos/options_tvos.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -32,8 +40,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Rm_TitleScreen","path":"rooms/Rm_TitleScreen/Rm_TitleScreen.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
