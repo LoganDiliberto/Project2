@@ -8,3 +8,14 @@ if canFire {
 	canFire = false;
 	timer = time;
 }
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 70796229
+image_speed = 1;
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 7B8620BD
+/// @DnDArgument : "steps" "5"
+alarm_set(0, 5);
