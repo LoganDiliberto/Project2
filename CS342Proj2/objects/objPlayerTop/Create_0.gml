@@ -11,3 +11,10 @@ image_speed = 0;
 time = 25;
 timer = 0;
 canFire = true;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 5370797E
+/// @DnDArgument : "value" "3"
+/// @DnDArgument : "var" "playerTopHealth"
+global.playerTopHealth = 3;

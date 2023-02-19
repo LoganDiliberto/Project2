@@ -11,3 +11,10 @@ canFire = true;
 /// @DnDHash : 50E3EC74
 /// @DnDArgument : "speed" "0"
 image_speed = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 1E6D5BFC
+/// @DnDArgument : "value" "3"
+/// @DnDArgument : "var" "playerRightHealth"
+global.playerRightHealth = 3;

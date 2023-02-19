@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 1CBF43CE
+/// @DnDArgument : "value" "3"
+/// @DnDArgument : "var" "playerBotHealth"
+global.playerBotHealth = 3;
+
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 6A36077D

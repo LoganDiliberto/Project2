@@ -11,3 +11,10 @@ image_speed = 0;
 time = 25;
 timer = 0;
 canFire = true;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 1F80E5F9
+/// @DnDArgument : "value" "3"
+/// @DnDArgument : "var" "playerLeftHealth"
+global.playerLeftHealth = 3;
