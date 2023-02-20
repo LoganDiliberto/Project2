@@ -7,14 +7,14 @@ image_speed = 0;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 4DD84E92
-/// @DnDArgument : "code" "time = 40;$(13_10)timer = 0;$(13_10)canFire = true;$(13_10)$(13_10)instance_destroy(objPlayerTop);$(13_10)instance_destroy(objPlayerRight);$(13_10)instance_destroy(objPlayerLeft);"
+/// @DnDArgument : "code" "time = 40;$(13_10)timer = 0;$(13_10)canFire = true;$(13_10)$(13_10)instance_destroy(objPlayerTop);$(13_10)instance_destroy(objPlayerRight);$(13_10)instance_destroy(objPlayerBot);"
 time = 40;
 timer = 0;
 canFire = true;
 
 instance_destroy(objPlayerTop);
 instance_destroy(objPlayerRight);
-instance_destroy(objPlayerLeft);
+instance_destroy(objPlayerBot);
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1
