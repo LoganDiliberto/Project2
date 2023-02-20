@@ -14,7 +14,7 @@ image_speed = 0;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 4DD84E92
-/// @DnDArgument : "code" "time = 50;$(13_10)timer = 0;$(13_10)canFire = true;"
-time = 50;
+/// @DnDArgument : "code" "time = 80;$(13_10)timer = 0;$(13_10)canFire = true;"
+time = 80;
 timer = 0;
 canFire = true;
